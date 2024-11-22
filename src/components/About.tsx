@@ -3,10 +3,7 @@ import pilot from "../assets/pilot.png";
 
 export const About = () => {
   return (
-    <section
-      id="about"
-      className="container py-24 sm:py-32"
-    >
+    <section id="about" className="container py-24 sm:py-32">
       <div className="bg-muted/50 border rounded-lg py-12">
         <div className="px-6 flex flex-col-reverse md:flex-row gap-8 md:gap-12">
           <img
@@ -23,11 +20,15 @@ export const About = () => {
                 Company
               </h2>
               <p className="text-xl text-muted-foreground mt-4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit.
+                Gugli Tech is a leading IT solutions provider dedicated to
+                empowering businesses through innovative technology. With
+                expertise in software development, cloud solutions, AI
+                integration, and digital transformation, we help organizations
+                streamline processes, enhance productivity, and achieve
+                sustainable growth. <br />
+                Our commitment to excellence ensures that we deliver customized,
+                scalable, and secure solutions tailored to meet the unique needs
+                of each client.
               </p>
             </div>
 

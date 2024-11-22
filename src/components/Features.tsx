@@ -18,57 +18,59 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Adaptive Layout",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image4,
+      "Optimized for all devices, ensuring seamless user experience across platforms.",
+    image: image,
   },
   {
-    title: "Intuitive user interface",
+    title: "User-friendly interface ",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Experience seamless navigation with our easy-to-use interface, designed to enhance productivity and simplify your digital journey.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Intelligent Analytics",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
-    image: image,
+      "Harness the power of advanced analytics to drive smarter decisions and enhance operational efficiency.",
+    image: image4,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
-  "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  // "Dark/Light theme",
+  // "Reviews",
+  // "Features",
+  // "Pricing",
+  // "Contact form",
+  // "Our team",
+  // "Responsive design",
+  // "Newsletter",
+  // "Minimalist",
+  "Customizable Interface",
+  "Customer Testimonials",
+  // "Flexible Pricing Plans",
+  "Get in Touch",
+  "Meet Our Experts",
+  "Adaptive User Experience",
+  "Stay Updated",
+  "Sleek and Simple Design",
 ];
 
 export const Features = () => {
   return (
-    <section
-      id="features"
-      className="container py-24 sm:py-32 space-y-8"
-    >
+    <section id="features" className="container py-24 sm:py-32 space-y-8">
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Packed with Powerful Features for Seamless{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Technology Solutions
         </span>
       </h2>
 
       <div className="flex flex-wrap md:justify-center gap-4">
         {featureList.map((feature: string) => (
           <div key={feature}>
-            <Badge
-              variant="secondary"
-              className="text-sm"
-            >
+            <Badge variant="secondary" className="text-sm">
               {feature}
             </Badge>
           </div>

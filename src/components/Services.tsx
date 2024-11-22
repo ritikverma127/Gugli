@@ -12,19 +12,19 @@ const serviceList: ServiceProps[] = [
   {
     title: "Code Collaboration",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "the practice of developers working together on the same codebase to create, enhance, and maintain software.",
     icon: <ChartIcon />,
   },
   {
     title: "Project Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Project management is the practice of planning, organizing, executing, and monitoring work to achieve specific goals within a defined timeline, budget, and scope.",
     icon: <WalletIcon />,
   },
   {
     title: "Task Automation",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Task automation is the process of using technology to perform repetitive or time-consuming tasks without human intervention. By automating processes, businesses and individuals can save time, reduce errors, and focus on more important tasks.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -42,8 +42,8 @@ export const Services = () => {
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            Build long-term relationships by delivering value, personalization,
+            and exceptional customer experiences.
           </p>
 
           <div className="flex flex-col gap-8">
